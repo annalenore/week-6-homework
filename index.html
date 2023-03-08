@@ -6,22 +6,22 @@
 
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
 
-      <!-- Channel Buttons Go Here -->
-      <div id="channels">
-        <button onClick="setvideo('https://www.youtube.com/embed/5m14CQFtNi8')">ted lasso</button>
-      </div>
-      </div>
-      <div id="2-channel">
-        <button>music</button>
-      </div>
-      </div>
-      <div id="3-channel">
-        <button>apartments</button>
-      </div>
-      </div>
-    
+  <body>
+    <div>
+      <div id="tv">click the buttons
+        <iframe id="ifr"></iframe>
+    </div>
+
+    <div id="channels">
+      <button onclick="loadTedLasso()">ted lasso</button>
+      <button onclick="loadArtVlogs()">art vlogs</button> 
+      <button onclick="loadApartments()">apartments</button> 
+    </div>
+  </div>
+  
+   
+  
     <script src="script.js"></script>
   </body>
 </html>
