@@ -6,7 +6,8 @@ body {
   font-size: 22px;
   line-height: 1.5;
   font-family: Helvetica, sans-serif;
-  color: #111;
+  background-color: #2178ae;
+  color: #cfe5cc;
   margin: 0;
   padding: 20px 40px;
 
@@ -21,14 +22,13 @@ button {
   border: none;
   box-shadow: none;
   cursor: pointer;
-  
   padding: 18px 50px;
   font-size: 20px;
   font-weight: bold;
-  color: #FFF;
+  color: #f7b0be;
   text-transform: uppercase;
-  background: linear-gradient(#0074e4, #5522fa);
-  border-radius: 50px;
+  background: #f15a42;
+  border-radius: 100px;
   transition: transform .2s ease;
 }
 
