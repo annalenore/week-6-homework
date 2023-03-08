@@ -11,3 +11,4 @@ const data = {
     // }
   ]
 }
+String[] videos= {"vid","vid","vid", "vid"};
